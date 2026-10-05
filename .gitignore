@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Added by repo hygiene
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+node_modules/
+*.pyc
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+.playwright-cli/
